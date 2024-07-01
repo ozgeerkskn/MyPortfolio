@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <section id="skills">
-      <div>
-        <div className="md:flex md:justify-between mt-32 pl-20">
+    <section id="skills" className="px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="mt-8 md:flex md:justify-between md:pl-20">
           <motion.div
-            className="md:w-1/3"
+            className="md:w-1/2 lg:w-1/3"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
@@ -30,7 +30,8 @@ const Skills = () => {
           className="bg-010026 min-h-screen flex items-center justify-center"
           style={{ marginTop: "-20vh" }}
         >
-          <style>{`
+          <style>
+            {`
                 .avatar {
                     --radius: 14rem;
                     --d: calc(var(--i) / var(--total));
@@ -40,8 +41,15 @@ const Skills = () => {
                     transform: rotate(var(--r)) translate(var(--radius)) rotate(calc(-1 * var(--r)));
              
                 }
-            `}</style>
-          <div className="md:flex md:justify-between md:gap-16 mt-32">
+                  @media (max-width: 768px) {
+              .avatar {
+                --radius: 10rem; /* Avatar boyutu */
+             
+              }
+            }
+            `}
+          </style>
+          <div className="mt-8 md:flex md:flex-wrap md:justify-center">
             <div className="mt-16 md:mt-0"></div>
           </div>
           <div
