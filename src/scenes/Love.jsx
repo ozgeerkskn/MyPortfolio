@@ -38,6 +38,9 @@ const Love = () => {
           }}
         >
           <p className="font-playfair text-center text-4xl mb-5 ">DIGITAL</p>
+          <p className="text-center">Web Development</p>
+          <p className="text-center">Digital Marketing</p>
+          <p className="text-center">User Experience</p>
         </motion.div>
         <motion.div
           className={`bg-red ${processStyle} before:content-person5 md:w-1/4 w-60`}
@@ -51,6 +54,9 @@ const Love = () => {
           }}
         >
           <p className="font-playfair text-center text-4xl mb-5">SOFTWARE</p>
+          <p className="text-center">Full-Stack Development</p>
+          <p className="text-center">Software Architecture</p>
+          <p className="text-center">Databese Management</p>
         </motion.div>
         <motion.div
           className={`bg-purple ${processStyle} before:content-person3 md:w-1/4 w-60`}
@@ -64,6 +70,9 @@ const Love = () => {
           }}
         >
           <p className="font-playfair text-center text-4xl mb-5">MY FAMILY</p>
+          <p className="text-center">Holiday Traditions</p>
+          <p className="text-center">Family Relationships</p>
+          <p className="text-center">Home Activities</p>
         </motion.div>
         <motion.div
           className={`bg-indigo ${processStyle} before:content-person4 md:w-1/4 w-60`}
@@ -79,6 +88,9 @@ const Love = () => {
           <p className="font-playfair text-center text-4xl mb-5">
             UI/UX DESIGN
           </p>
+          <p className="text-center">User Research</p>
+          <p className="text-center">Interaction Design</p>
+          <p className="text-center">Visual Design</p>
         </motion.div>
         <motion.div
           className={`bg-orange ${processStyle} before:content-person1 md:w-1/4 w-60`}
@@ -92,6 +104,9 @@ const Love = () => {
           }}
         >
           <p className="font-playfair text-center text-4xl mb-5">TRAVEL</p>
+          <p className="text-center">Hidden Gems</p>
+          <p className="text-center">Budget Travel</p>
+          <p className="text-center">Food and Cuisine</p>
         </motion.div>
       </div>
     </section>

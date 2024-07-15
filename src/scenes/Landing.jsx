@@ -54,14 +54,16 @@ const Landing = ({ setSelectedPage }) => {
 
           <p className="mt-12 mb-7 text-xl text-center md:text-start">
             I am a <span className="text-red">computer engineer</span>. I'm
-            interested in <span className="text-red">design technologies</span>.
-            I'm becoming more and more proficient in rich interactive
-            experiences for web applications. I want to serve more people or
-            institutions by expanding my{" "}
-            <span className="text-red">business network</span>. Being{" "}
+            interested in <span className="text-red"> software </span> and{" "}
+            <span className="text-red">design technologies</span>. I'm becoming
+            more and more proficient in rich interactive experiences for web
+            applications. I work on developing professional web applications
+            that are responsive and tailored to various requirements. I aim to
+            expand my professional network and provide services to more
+            individuals and organizations. Being{" "}
             <span className="text-red"> multidisciplinary </span> is a big part
-            of my ethos. Whether it's design, development, video or UX; I'm
-            there. My focus is on working on engaging and{" "}
+            of my ethos. Whether it's software, design, development, video or
+            UX; I'm there. My focus is on working on engaging and{" "}
             <span className="text-red"> interactive web applications </span>{" "}
             across the spectrum of devices and platforms. If you have an
             exciting project you are interested in working together on,{" "}

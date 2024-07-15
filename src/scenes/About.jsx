@@ -51,9 +51,10 @@ const About = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-28 bg-red absolute right-0 rounded top-0 z-[-1]" />
           </div>
+          <p className="mt-5 font-semibold ">ATILIM UNIVERSITY </p>
           <p className="mt-5">
-            Atılım University, Faculty of Engineering, Computer Engineering,
-            Bachelor’s degree, 2018 – 2023
+            Faculty of Engineering, Computer Engineering, Bachelor’s degree,
+            2018 – 2023
           </p>
         </motion.div>
 
