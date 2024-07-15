@@ -93,9 +93,6 @@ const Single = ({ item }) => {
         <motion.div className="md:w-1/2 w-full p-5" style={{ y }}>
           <h2 className="text-2xl font-bold">{item.title}</h2>
           <p className="mt-2">{item.desc}</p>
-          <button className="mt-4 px-4 py-2 bg-yellow text-white font-bold rounded-full">
-            See Demo
-          </button>
         </motion.div>
       </div>
     </section>
